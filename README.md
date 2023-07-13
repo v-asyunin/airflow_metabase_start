@@ -43,3 +43,12 @@ bash run_docker.sh
 
 В postgres_collect_data в директории pgdata_collect_data удалить файл .gitkeep - иначе не запустится БД. Этот файл я создавал для того, чтобы в GIT загрузились пустые директории.
 
+
+Доступ к сервисам:
+~~~
+Ariflow: host:8080
+Postgres: host:16543
+MetaBase: host:3000
+~~~
+
+
